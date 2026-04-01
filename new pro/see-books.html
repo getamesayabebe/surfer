@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="icon" type="image/png" href="222.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See Books | Surfer Trading</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #020617;
+            color: #e2e8f0;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #4f46e5 0%, #9333ea 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100">
+    <nav class="fixed w-full z-50 bg-slate-950/90 border-b border-slate-700 backdrop-blur-md">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="flex items-center gap-3">
+                    <img src="222.png" alt="Surfer logo" class="w-10 h-10 rounded-lg bg-slate-950" />
+                </a>
+                <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                    <a href="index.html" class="hover:text-indigo-400 transition">Home</a>
+                    <a href="book-review.html" class="hover:text-indigo-400 transition">Book Review</a>
+                    <a href="#books" class="bg-indigo-600 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-indigo-500 transition-all">
+                        SEE Books
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-16 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-sm uppercase tracking-[0.4em] text-indigo-400 mb-4">Online Forex Books</p>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+                Explore Top <span class="text-indigo-400">Forex Trading</span> Books Online
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-3xl mx-auto">
+                Discover the most practical online resources, guides, and forex e-books handpicked for active traders.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#books" class="bg-indigo-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-indigo-500 transition-all">
+                    See Online Books
+                </a>
+                <a href="book-review.html" class="bg-slate-900 border border-slate-700 text-slate-100 px-8 py-3 rounded-xl font-semibold hover:bg-slate-800 transition-all">
+                    Back to Reviews
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="pb-24 px-4">
+        <section id="books" class="max-w-6xl mx-auto py-12">
+            <div class="grid gap-8 lg:grid-cols-2">
+                <article class="rounded-3xl bg-slate-900 border border-slate-700 p-8 card-hover">
+                    <h2 class="text-2xl font-bold mb-4 text-white">1. Online Forex Trading Guide</h2>
+                    <p class="text-slate-300 mb-4">A comprehensive web-based guide covering currency pairs, leverage, and trade execution for new and intermediate traders.</p>
+                    <a href="https://www.investopedia.com/articles/forex/11/forex-basics.asp" target="_blank" class="inline-flex items-center gap-2 text-indigo-300 font-semibold hover:text-indigo-200">
+                        Read on Investopedia
+                    </a>
+                </article>
+                <article class="rounded-3xl bg-slate-900 border border-slate-700 p-8 card-hover">
+                    <h2 class="text-2xl font-bold mb-4 text-white">2. Forex Trading for Beginners</h2>
+                    <p class="text-slate-300 mb-4">An easy-to-follow online ebook with clear examples of trend trading, support/resistance, and risk management.</p>
+                    <a href="https://www.dailyfx.com/education/forex-market-basics" target="_blank" class="inline-flex items-center gap-2 text-indigo-300 font-semibold hover:text-indigo-200">
+                        Read on DailyFX
+                    </a>
+                </article>
+                <article class="rounded-3xl bg-slate-900 border border-slate-700 p-8 card-hover">
+                    <h2 class="text-2xl font-bold mb-4 text-white">3. FX Education Center</h2>
+                    <p class="text-slate-300 mb-4">A structured online book covering advanced chart setup, price action, and common forex trading mistakes.</p>
+                    <a href="https://www.babypips.com/learn/forex" target="_blank" class="inline-flex items-center gap-2 text-indigo-300 font-semibold hover:text-indigo-200">
+                        Read on BabyPips
+                    </a>
+                </article>
+                <article class="rounded-3xl bg-slate-900 border border-slate-700 p-8 card-hover">
+                    <h2 class="text-2xl font-bold mb-4 text-white">4. Advanced Forex Strategies</h2>
+                    <p class="text-slate-300 mb-4">A digital resource focused on risk control, position sizing, and systematic forex setups.</p>
+                    <a href="https://www.forexfactory.com/" target="_blank" class="inline-flex items-center gap-2 text-indigo-300 font-semibold hover:text-indigo-200">
+                        Visit Forex Factory
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

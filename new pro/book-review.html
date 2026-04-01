@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="icon" type="image/png" href="222.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review | Surfer Trading</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #020617;
+            color: #e2e8f0;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #4f46e5 0%, #9333ea 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-6px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100">
+    <nav class="fixed w-full z-50 bg-slate-950/90 border-b border-slate-700 backdrop-blur-md">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="flex items-center gap-3">
+                    <img src="222.png" alt="Surfer logo" class="w-10 h-10 rounded-lg bg-slate-950" />
+                </a>
+                <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                    <a href="index.html" class="hover:text-indigo-400 transition">Home</a>
+                    <a href="#reviews" class="hover:text-indigo-400 transition">Reviews</a>
+                    <a href="#details" class="hover:text-indigo-400 transition">Why Read</a>
+                    <a href="see-books.html" class="bg-indigo-600 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-indigo-500 transition-all">
+                        SEE Books
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-16 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-sm uppercase tracking-[0.4em] text-indigo-400 mb-4">ForexPro Reading List</p>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+                Essential <span class="text-indigo-400">Forex</span> Books for Traders
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-3xl mx-auto">
+                Dive into the best books on market structure, risk management, and trading psychology chosen for serious currency traders.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#reviews" class="bg-indigo-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-indigo-500 transition-all">
+                    Read Reviews
+                </a>
+                <a href="index.html" class="bg-slate-900 border border-slate-700 text-slate-100 px-8 py-3 rounded-xl font-semibold hover:bg-slate-800 transition-all">
+                    Back to Portfolio
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="pb-24 px-4">
+        <section id="reviews" class="max-w-6xl mx-auto py-12">
+            <div class="grid gap-8 lg:grid-cols-3">
+                <article class="rounded-3xl bg-slate-900 border border-slate-700 p-8 card-hover">
+                    <span class="inline-flex px-3 py-1 rounded-full bg-indigo-500/15 text-indigo-300 text-sm font-semibold mb-4">1. Currency Trading</span>
+                    <h2 class="text-2xl font-bold mb-3 text-white">"Currency Trading for Dummies"</h2>
+                    <p class="text-slate-300 mb-4">A practical introduction to FX mechanics, order types, and the fundamentals every trader should master before going live.</p>
+                    <p class="text-slate-400 text-sm">Great for building confidence in execution and risk control.</p>
+                </article>
+                <article class="rounded-3xl bg-slate-900 border border-slate-700 p-8 card-hover">
+                    <span class="inline-flex px-3 py-1 rounded-full bg-indigo-500/15 text-indigo-300 text-sm font-semibold mb-4">2. Trading Psychology</span>
+                    <h2 class="text-2xl font-bold mb-3 text-white">"Trading in the Zone"</h2>
+                    <p class="text-slate-300 mb-4">Focuses on mindset, discipline, and consistency—key traits for preserving capital in volatile currency markets.</p>
+                    <p class="text-slate-400 text-sm">Recommended for improving decision-making under pressure.</p>
+                </article>
+                <article class="rounded-3xl bg-slate-900 border border-slate-700 p-8 card-hover">
+                    <span class="inline-flex px-3 py-1 rounded-full bg-indigo-500/15 text-indigo-300 text-sm font-semibold mb-4">3. Strategy</span>
+                    <h2 class="text-2xl font-bold mb-3 text-white">"Day Trading and Swing Trading"
+                    </h2>
+                    <p class="text-slate-300 mb-4">Offers tactical setups, chart patterns, and risk-reward frameworks tailored for short-term FX moves.</p>
+                    <p class="text-slate-400 text-sm">Perfect for traders who want structured, repeatable systems.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="details" class="max-w-6xl mx-auto py-12">
+            <div class="grid gap-8 lg:grid-cols-2 items-center">
+                <div class="rounded-3xl bg-slate-900 border border-slate-700 p-10">
+                    <h2 class="text-3xl font-bold mb-4 text-white">Why these books matter</h2>
+                    <p class="text-slate-300 mb-6">These titles combine practical execution, market psychology, and risk discipline—three pillars of a winning forex trader portfolio.</p>
+                    <ul class="space-y-4 text-slate-300">
+                        <li class="flex gap-3 items-start">
+                            <span class="mt-1 inline-flex h-3 w-3 rounded-full bg-indigo-400"></span>
+                            <span>Understand currency drivers and macro themes.</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="mt-1 inline-flex h-3 w-3 rounded-full bg-indigo-400"></span>
+                            <span>Build discipline to avoid emotional trading.</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="mt-1 inline-flex h-3 w-3 rounded-full bg-indigo-400"></span>
+                            <span>Turn frameworks into reviewable trade routines.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rounded-3xl bg-slate-900 border border-slate-700 p-10">
+                    <h3 class="text-2xl font-bold mb-4 text-white">Recommended reading flow</h3>
+                    <ol class="list-decimal list-inside space-y-3 text-slate-300">
+                        <li>Start with market structure and order execution.</li>
+                        <li>Then sharpen mental edge with psychology lessons.</li>
+                        <li>Finish with tactical systems and risk sizing.</li>
+                    </ol>
+                    <p class="mt-6 text-slate-400 text-sm">Use these books as part of your monthly review routine to stay sharp and adaptable.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
